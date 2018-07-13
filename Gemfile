@@ -20,15 +20,18 @@ gem 'jquery-rails'
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
-# bundle exec rake doc:rails generates the API under doc/api.
+gem "font-awesome-rails"
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'webpacker', '~> 3.5'
-# Use Unicorn as the app server
-# gem 'unicorn'
+gem 'bulma-rails', '~> 0.6.1'
+gem 'simple_form', '~> 3.5'
+gem 'devise', '~> 4.4'
+gem 'gravatar_image_tag', '~> 1.2'
+gem "wysiwyg-rails"
+gem 'public_activity', '~> 1.5'
+gem "figaro"
 
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

@@ -29,9 +29,12 @@ config.webpacker.check_yarn_integrity = true
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+  # devise
 
-  # Asset digests allow you to set far-future HTTP expiration dates on all assets,
-  # yet still be able to expire them through the digest params.
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = { :address => "localhost", :port => 1025 }
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
   config.assets.digest = true
 
   # Adds additional error checking when serving assets at runtime.
