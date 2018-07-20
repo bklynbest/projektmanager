@@ -36,7 +36,7 @@ config.webpacker.check_yarn_integrity = true
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
   config.action_mailer.raise_delivery_errors = true
 
-
+  config.x.webpacker[:dev_server_host] = "http://127.0.0.1:8080"
 
   config.assets.digest = true
 
