@@ -3,4 +3,5 @@ class Team < ApplicationRecord
     has_many :users
     
     accepts_nested_attributes_for :users, allow_destroy: true
+    validates :name, :presence => true
 end
