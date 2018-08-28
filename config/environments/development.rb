@@ -33,8 +33,9 @@ config.webpacker.check_yarn_integrity = false
 
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = { address: "localhost", port: 8082 }
-  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
   config.action_mailer.raise_delivery_errors = true
+  
+  config.action_mailer.default_url_options = { host: 'https://britanniaprojectmanager.herokuapp.com' }
 
   config.x.webpacker[:dev_server_host] = "http://127.0.0.1:8080"
 
